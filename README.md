@@ -1,6 +1,6 @@
 # My Blog
 
-Recording my work so I'll not forget when I'll need it in future [https://TomaszOledzki.eu](https://TomaszOledzki.eu).
+Recording my work so I'll not forget when I'll need it in future.
 
 ### Theme
 

@@ -69,6 +69,6 @@ Correct JSON should look like so:
 
 Thats it! Simple, isn't it?
 
-Bonus: [how to create Function App Host Secret using PowerShell](http://tomaszoledzki.eu/2020/07/25/function-app-create-or-update-host-secret/).
+Bonus: [how to create Function App Host Secret using PowerShell](/2020/07/25/function-app-create-or-update-host-secret).
 
 Thanks for reading!
