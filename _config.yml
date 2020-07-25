@@ -28,5 +28,4 @@ google_analytics: "UA-142149926-1"
 github:
   repo: https://github.com/TomaszOledzki/TomaszOledzki.github.io
 
-plugins:
-  [jekyll-gist, jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+plugins: [jekyll-gist, jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
