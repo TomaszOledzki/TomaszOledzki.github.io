@@ -49,10 +49,27 @@ Message states, I'm sending incorrect body. So what I'm sending in the body? Jus
 Let's see in the docs: [https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdatehostsecret#request-body](https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdatehostsecret#request-body).
 
 According to thee docs, I should send just two parameters in the body "name" and "value":
-|Name|Type|Description|
-|---|---|---|
-|name|string|Key name|
-|value|string|Key value|
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>name</td>
+            <td>string</td>
+            <td>Key name</td>
+        </tr>
+        <tr>
+            <td>value</td>
+            <td>string</td>
+            <td>Key value</td>
+        </tr>
+    </tbody>
+</table>
 
 Looks easy. But ARM Api keeps telling me something is missing. Not so easy, though. How should correct JSON look like then?
 
