@@ -1,7 +1,7 @@
 # Ignore docs files
 _gh_pages
-_site
 .ruby-version
+_site
 .jekyll-cache
 
 # Numerous always-ignore extensions
@@ -40,3 +40,7 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+# Jekyl Serve files and folders
+Gemfile
+Gemfile.lock
