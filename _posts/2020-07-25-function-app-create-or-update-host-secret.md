@@ -14,7 +14,7 @@ Actually I'm and following instructions in the docs:
 - Create/Update: [https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdatehostsecret#request-body](https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdatehostsecret#request-body). 
 - Delete: [https://docs.microsoft.com/en-us/rest/api/appservice/webapps/deletehostsecret](https://docs.microsoft.com/en-us/rest/api/appservice/webapps/deletehostsecret)
 
-And here's is a part of my code. Also I'm describing [here](/2020/07/24/badrequest-error-function-app-create-or-update-host-secret) why I'm building JSON body (variable $body) in this way for Create/Update request.
+And here's is a part of my code. Also I'm describing [here]({% page_url 2020-07-24-badrequest-error-function-app-create-or-update-host-secret %} why I'm building JSON body (variable $body) in this way for Create/Update request.
 
 {% gist 1c186db495d66df9dbddd017b4bf2c1c %}
 
