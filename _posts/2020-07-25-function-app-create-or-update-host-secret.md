@@ -5,7 +5,7 @@ description: This post explains how to list, create, update or delete Function A
 tags: appservice armapi powershell
 ---
 
-In previous [post]({% post_url 2020-07-24-badrequest-error-function-app-create-or-update-host-secret %}) I was complaining how I received a BadRequest error when trying to create or update host secret in Function App using ARM Api. But how I'm actually doing this?
+In previous [post]({% link _posts/2020-07-24-badrequest-error-function-app-create-or-update-host-secret.md %}) I was complaining how I received a BadRequest error when trying to create or update host secret in Function App using ARM Api. But how I'm actually doing this?
 
 One way is to use Postman and call ARM Api. I'm calling ARM Api using PowerShell Invoke-WebRequest cmdlet in my scripts and then using this in CI/CD to create/update/get/delete api keys on Function Apps in my Azure Tenant.
 
@@ -14,10 +14,10 @@ Actually I'm and following instructions in the docs:
 - Create/Update: [https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdatehostsecret#request-body](https://docs.microsoft.com/en-us/rest/api/appservice/webapps/createorupdatehostsecret#request-body). 
 - Delete: [https://docs.microsoft.com/en-us/rest/api/appservice/webapps/deletehostsecret](https://docs.microsoft.com/en-us/rest/api/appservice/webapps/deletehostsecret)
 
-And here's is a part of my code. Also I'm describing [here]({% page_url 2020-07-24-badrequest-error-function-app-create-or-update-host-secret %} why I'm building JSON body (variable $body) in this way for Create/Update request.
+And here's is a part of my code. Also I'm describing [here]({% link _posts/2020-07-24-badrequest-error-function-app-create-or-update-host-secret.md %} why I'm building JSON body (variable $body) in this way for Create/Update request.
 
 {% gist 1c186db495d66df9dbddd017b4bf2c1c %}
 
-I'm using 'GetToken' function to acquire current session authentication token. Code for the function is [here]({% post_url 2020-07-26-gettoken-function %}).
+I'm using 'GetToken' function to acquire current session authentication token. Code for the function is [here]({% link _posts/2020-07-26-gettoken-function.md %}).
 
 Thanks for reading!

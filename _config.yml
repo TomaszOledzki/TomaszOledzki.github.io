@@ -1,31 +1,43 @@
+# Handling Reading
+safe                : false
+include             : [".htaccess"]
+exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+keep_files          : [".git", ".svn"]
+encoding            : "utf-8"
+markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+strict_front_matter : false
+
+# Filtering Content
+show_drafts         : false
+future              : false
+unpublished         : false
+
 # Dependencies
-markdown: kramdown
-highlighter: rouge
+markdown          : kramdown
+highlighter       : rouge
 
 # Permalinks
-permalink: pretty
+permalink         : pretty
 
 # Setup
-title: Tomasz Olędzki
-tagline: "My personal blog about Azure and PowerShell"
-description: "My personal blog</br>about Azure and PowerShell."
-url: https://TomaszOledzki.eu
-baseurl: /
-
+title             : Tomasz Olędzki
+tagline           : "My personal blog about Azure and PowerShell"
+description       : "My personal blog</br>about Azure and PowerShell."
+url               : https://TomaszOledzki.eu
 author:
-  name: "Tomasz Olędzki"
-  url: https://TomaszOledzki.eu
+  name            : "Tomasz Olędzki"
 
-github_username: TomaszOledzki
-facebook_username: tomaszoledzki82
-linkedin_username: tomasz-oledzki
-emailme: mailto:tomasz-blog@oledzki.eu
+github_username   : TomaszOledzki
+facebook_username : tomaszoledzki82
+linkedin_username : tomasz-oledzki
+emailme           : mailto:tomasz-blog@oledzki.eu
 
-paginate: 5
-google_analytics: "UA-142149926-1"
-#bing_seo:         '154DCA37E7E262422CB48DC78B149247'
+paginate          : 4
+encodning         : "utf-8"
+google_analytics  : "UA-142149926-1"
+#bing_seo         :'154DCA37E7E262422CB48DC78B149247'
 
 github:
-  repo: https://github.com/TomaszOledzki/TomaszOledzki.github.io
+  repo            : https://github.com/TomaszOledzki/TomaszOledzki.github.io
 
-plugins: [jekyll-gist, jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
+plugins           : [jekyll-gist, jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
