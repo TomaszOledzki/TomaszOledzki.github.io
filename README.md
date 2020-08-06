@@ -4,7 +4,7 @@ Recording my work so I'll not forget when I'll need it in future.
 
 ### Theme
 
-The theme is forked from from [poole/hyde](https://github.com/poole/hyde).
+The theme is forked from [poole/hyde](https://github.com/poole/hyde).
 Some changes to the theme are made based on [qian256/qian256.github.io](https://github.com/qian256/qian256.github.io).
 
 ### License
