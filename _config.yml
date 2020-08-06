@@ -9,12 +9,12 @@ permalink: pretty
 title: Tomasz Olędzki
 tagline: "My personal blog about Azure and PowerShell"
 description: "My personal blog</br>about Azure and PowerShell."
-url: http://TomaszOledzki.eu
+url: https://TomaszOledzki.eu
 baseurl: /
 
 author:
   name: "Tomasz Olędzki"
-  url: http://TomaszOledzki.eu
+  url: https://TomaszOledzki.eu
 
 github_username: TomaszOledzki
 facebook_username: tomaszoledzki82
